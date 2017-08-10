@@ -9,17 +9,19 @@
     <body>
         <div class="container">
             <div class="row hero page">
+                <a id="home" class="anchor"></a>
                 <div class="col m-2 l-5">
                     <h1>Joshua Sera</h1>
                     <h2>UX Design Portfolio</h2>
-                    <a href="josh-sera-resume.pdf">Downloadable Resume (PDF)</a>
+                    <a href="joshua-sera-resume.pdf">Downloadable Resume (PDF)</a>
                 </div>
             </div>
             <section class="row about page">
+                <a id="about" class="anchor"></a>
                 <div class="col m-3 l-12">
                     <h1><a href="#"></a>About Me</h1>
                 </div>
-                <div class="col m-1 l-4">
+                <div class="col m-1 l-4 portrait">
                     <img src="img/placeholder.png" alt="photo of Joshua Sera" />
                 </div>
                 <div class="col m-2 l-8">
@@ -28,14 +30,38 @@
                     <p>People don’t use software because they just happen to like software, they use it to get to a goal. To me, user experience means shortening the path to that goal, and making it as pleasant as possible. Helping people accomplish their goals in the way they want to means success for whatever you create.</p>
                 </div>
             </section>
+            <section class="row projects page">
+                <a id="projects" class="anchor"></a>
+                <div class="col m-3 l-12">
+                    <h1><a href="#"></a>Projects</h1>
+                </div>
+                <div class="col m-1 l-4 project">
+                    <img src="img/placeholder.png" />
+                    <h2>University of Washington Bothell</h2>
+                    <h3>Information Architecture</h3>
+                </div>
+                <div class="col m-1 l-4 project">
+                    <img src="img/placeholder.png" />
+                    <h2>AllRecipes Mobile App</h2>
+                    <h3>Interaction Design</h3>
+                </div>
+                <div class="col m-1 l-4 project">
+                    <img src="img/placeholder.png" />
+                    <h2>Everyday Music</h2>
+                    <h3>Research/Interaction Design</h3>
+                </div>
+            </section>
+            <section class="row contact page">
+                <a id="contact"></a>
+            </section>
         </div>
         <section class="row">
             <div class="col m-3 l-6 nav">
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul data-smooth-scroll data-animation-easing="swing" data-offset="-50">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="mailto:me@joshsera.com">Contact</a></li>
                 </ul>
             </div>
         </section>
