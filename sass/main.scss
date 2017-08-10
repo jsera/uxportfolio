@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+ * App CSS
+ */
+
+/* phone, 1 col */
+.row {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+
+    .col {
+        box-sizing: border-box;
+        float: left;
+        padding: 0 15px;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
+/* tablet 3 col */
+@media (min-width: 576px) {
+    .row {
+        .col {
+
+            &.m-1 {
+                width: 33%;
+            }
+
+            &.m-2 {
+                width: 66%;
+            }
+
+            &.m-3 {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Desktop 12 col */
+@media (min-width: 768px) {
+    .row {
+        .col {
+            &.l-1 {
+                width: 8%;
+            }
+
+            &.l-2 {
+                width: 16%;
+            }
+
+            &.l-3 {
+                width: 25%;
+            }
+
+            &.l-4 {
+                width: 33.33%;
+            }
+
+            &.l-5 {
+                width: 42%;
+            }
+
+            &.l-6 {
+                width: 50%;
+            }
+
+            &.l-7 {
+                width: 58%;
+            }
+
+            &.l-8 {
+                width: 66.66%;
+            }
+
+            &.l-9 {
+                width: 74%;
+            }
+
+            &.l-10 {
+                width: 84%;
+            }
+
+            &.l-11 {
+                width: 92%;
+            }
+
+            &.l-12 {
+                width: 100%;
+            }
+        }
+    }
+}
