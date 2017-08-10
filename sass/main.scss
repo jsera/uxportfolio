@@ -46,6 +46,16 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/*
+ * Variables
+ */
+$break-med: 576px;
+$break-lg: 768px;
+
+/*
+ * Fonts
+ */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 /*
  * App CSS
@@ -68,7 +78,7 @@ table {
 
 
 /* tablet 3 col */
-@media (min-width: 576px) {
+@media (min-width: $break-med) {
     .row {
         .col {
 
@@ -88,7 +98,7 @@ table {
 }
 
 /* Desktop 12 col */
-@media (min-width: 768px) {
+@media (min-width: $break-lg) {
     .row {
         .col {
             &.l-1 {
@@ -139,5 +149,48 @@ table {
                 width: 100%;
             }
         }
+    }
+}
+
+/* Fancy stuff */
+.row .col.nav {
+    opacity: .38;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+
+    ul {
+        overflow: hidden;
+        text-align: center;
+
+        li {
+            display: block;
+            background-color: none;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            float: left;
+            text-align: center;
+            width: 25%;
+            padding: 20px 0;
+
+            @media (min-width: $break-med) {
+                padding: 16px 0;
+            }
+
+            @media (min-width: $break-lg) {
+                width: 20%;
+            }
+        }
+    }
+
+    @media (min-width: $break-med) {
+        right: 0;
+        bottom: auto;
+        width: $break-med;
+    }
+
+    @media (min-width: $break-lg) {
+        text-align: left;
+        width: 50%;
     }
 }
