@@ -191,26 +191,31 @@ $transparent-black: rgba(0, 0, 0, .38);
         text-align: center;
 
         li {
-            display: block;
-            background-color: none;
-            color: white;
-            @include oswald-bold();
-            float: left;
-            text-align: center;
-            width: 25%;
-            padding: 20px 0;
+            a {
+                text-decoration: none;
+                display: block;
+                background-color: none;
+                color: white;
+                @include oswald-bold();
+                float: left;
+                text-align: center;
+                width: 25%;
+                padding: 20px 0;
 
-            @media (min-width: $break-med) {
-                padding: 16px 0;
-            }
+                @media (min-width: $break-med) {
+                    padding: 16px 0;
+                }
 
-            @media (min-width: $break-lg) {
-                width: 20%;
+                @media (min-width: $break-lg) {
+                    width: 20%;
+                }
             }
+            
         }
     }
 
     @media (min-width: $break-med) {
+        top: 0;
         right: 0;
         bottom: auto;
         width: $break-med;
