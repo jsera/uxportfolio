@@ -202,6 +202,10 @@ $transparent-black: rgba(0, 0, 0, .38);
                 width: 25%;
                 padding: 20px 0;
 
+                &.active {
+                    color: #71AAB8;
+                }
+
                 @media (min-width: $break-med) {
                     padding: 16px 0;
                 }
