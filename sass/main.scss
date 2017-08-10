@@ -52,12 +52,13 @@ table {
 $break-med: 576px;
 $break-lg: 768px;
 
-$transparent-black: rgba(0, 0, 0, .38);
+$transparent-black: rgba(0, 0, 0, .7);
 
 /*
  * Fonts
  */
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Open_Sans:300,700');
 
 @mixin oswald-bold() {
     font-family: 'Oswald', sans-serif;
@@ -69,6 +70,21 @@ $transparent-black: rgba(0, 0, 0, .38);
     font-weight: 300;
 }
 
+@mixin oswald-light() {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+@mixin lato-light() {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+@mixin lato-bold() {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
 /*
  * Other mixins
  */
@@ -78,6 +94,42 @@ $transparent-black: rgba(0, 0, 0, .38);
     background-color: $transparent-black;
     color: white;
     font-size: $font-size;
+}
+
+@mixin section-header() {
+    @include oswald-light();
+    color: black;
+    font-size: 48px;
+    height: 60px;
+    position: relative; 
+
+    a {
+        display: none;
+
+        @media (min-width: $break-med) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background-image: url(../img/uparrow.png);
+        }
+    }
+
+    @media (min-width: $break-med) {
+        padding-left: 74px;
+        padding-top: 6px;
+    }
+}
+
+@mixin content-section() {
+    padding: 42px 42px 0 42px;
+}
+
+@mixin content-row() {
+    padding-top: 20px;
+    padding-bottom: 42px;
 }
 
 /*
@@ -279,6 +331,7 @@ $transparent-black: rgba(0, 0, 0, .38);
             padding: 9px 34px;
             margin-top: 36px;
             margin-right: 106px;
+            text-decoration: none;
 
             @media (min-width: $break-med) {
                 margin-right: 72px;
@@ -303,6 +356,36 @@ $transparent-black: rgba(0, 0, 0, .38);
         &::after {
             background-size: 100%;
             background-position: bottom 50% right 0;
+        }
+    }
+}
+
+.row.about {
+    @include content-row();
+
+    .col {
+        @include content-section();
+
+        img {
+            width: 100%;
+            height: 250px;
+        }
+
+        h1 {
+            @include section-header();
+        }
+
+        h2 {
+            @include lato-bold();
+            font-size: 14px;
+            padding: 10px 0;
+        }
+
+        p {
+            @include lato-light();
+            font-size: 14px;
+            line-height: 20px;
+            padding: 10px 0;
         }
     }
 }
