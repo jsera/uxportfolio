@@ -52,10 +52,33 @@ table {
 $break-med: 576px;
 $break-lg: 768px;
 
+$transparent-black: rgba(0, 0, 0, .38);
+
 /*
  * Fonts
  */
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+
+@mixin oswald-bold() {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+@mixin oswald-regular() {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+/*
+ * Other mixins
+ */
+@mixin hero-header($font-size) {
+    @include oswald-regular();
+    text-align: right;
+    background-color: $transparent-black;
+    color: white;
+    font-size: $font-size;
+}
 
 /*
  * App CSS
@@ -153,9 +176,13 @@ $break-lg: 768px;
 }
 
 /* Fancy stuff */
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
 .row .col.nav {
-    opacity: .38;
-    background-color: black;
+    background-color: $transparent-black;
     position: fixed;
     bottom: 0;
 
@@ -167,7 +194,7 @@ $break-lg: 768px;
             display: block;
             background-color: none;
             color: white;
-            font-family: 'Oswald', sans-serif;
+            @include oswald-bold();
             float: left;
             text-align: center;
             width: 25%;
@@ -192,5 +219,81 @@ $break-lg: 768px;
     @media (min-width: $break-lg) {
         text-align: left;
         width: 50%;
+    }
+}
+
+.row.hero {
+    position: relative;
+    height: 100vh;
+
+    &::after {
+        content:"";
+        background-image: url(../img/hero_image2.jpg);
+        background-size: 1200px;
+        background-position: top 0 right -300px;
+        opacity: .72;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .col {
+        padding-left: 0;
+        padding-top: 70px;
+
+        h1 {
+            @include hero-header(48px);
+            padding: 18px 34px 9px 34px;
+            margin-right: 34px;
+
+            @media (min-width: $break-med) {
+                margin-right: 0;
+            }
+        }
+
+        h2 {
+            @include hero-header(36px);
+            padding: 0 34px 18px 34px;
+            margin-right: 34px;
+
+            @media (min-width: $break-med) {
+                margin-right: 0;
+            }
+        }
+
+        a {
+            display: block;
+            @include hero-header(16px);
+            padding: 9px 34px;
+            margin-top: 36px;
+            margin-right: 106px;
+
+            @media (min-width: $break-med) {
+                margin-right: 72px;
+            }
+        }
+
+        @media (min-width: $break-med) {
+            padding-top: 70px;
+        }
+    }
+
+    @media (min-width: $break-med) {
+        height: 371px;
+
+        &::after{
+            background-size: 900px;
+            background-position: top 0 right -90px;
+        }
+    }
+
+    @media (min-width: $break-lg) {
+        &::after {
+            background-size: 100%;
+            background-position: bottom 50% right 0;
+        }
     }
 }
