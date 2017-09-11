@@ -1,0 +1,73 @@
+@import "main";
+
+.row.content {
+    @include content-row();
+    padding: 20px 22px;
+
+    &.contact {
+        padding-bottom: 83px;
+
+        .col {
+            border-top: 1px solid black;
+        }
+
+        @media (min-width: $break-med) {
+            .col {
+                border: none;
+            }
+        }
+
+        @media (min-width: $break-lg) {
+            .col {
+                border: none;
+            }
+        }
+    }
+
+    .col {
+        h1, h2 {
+            @include oswald-light();
+            color: black;
+            font-size: 48px;
+            height: 60px;
+            position: relative;
+            padding: 0 0 0 0;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 40px;
+            height: auto;
+        }
+
+        blockquote {
+            font-style: italic;
+            padding: 20px;
+        }
+
+        ol, ul {
+            padding: 0 25px;
+            line-height: 20px;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        img {
+            padding: 10px 0;
+        }
+    }
+
+    @media (min-width: $break-med) {
+        padding: 20px 42px;
+    }
+
+    @media (min-width: $break-lg) {
+        padding: 20px 82px;
+    }
+}

@@ -1,0 +1,41 @@
+@import "case-study";
+
+.row.hero {
+    .col {
+        h1 {
+            padding-bottom: 18px;
+        }
+    }
+
+    &.uwb::after {
+        background-image: url(../img/allrecipesbg.jpg);
+        background-position: top 0 left -300px;
+    }
+
+    @media (min-width: $break-med) {
+        &.uwb::after {
+            background-position: top 0 left 0;
+        }
+    }
+
+    @media (min-width: $break-lg) {
+        &.uwb::after {
+            background-position: top 40% left 0;
+        }
+    }
+}
+
+.row {
+    text-align: left;
+
+    .col {
+        &.s-third {
+            padding-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}

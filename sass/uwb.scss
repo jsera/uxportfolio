@@ -1,0 +1,64 @@
+@import "case-study";
+
+.row.hero {
+    .col {
+        h1 {
+            padding-bottom: 18px;
+        }
+    }
+
+    &.uwb::after {
+        background-image: url(../img/uwb_hero.jpg);
+        background-position: top 0 left 0;
+    }
+
+    @media (min-width: $break-med) {
+        &.uwb::after {
+            background-position: top 0 left 0;
+        }
+    }
+
+    @media (min-width: $break-lg) {
+        &.uwb::after {
+            background-position: top 40% left 0;
+        }
+    }
+}
+
+.row.design-brief, .row.results {
+    img {
+        float: none;
+        width: 80%;
+        margin: 20px;
+    }
+
+    @media (min-width: $break-lg) {
+        img {
+            float: left;
+            width: 40%;
+            margin: 20px 20px 20px 0;
+        }
+    }
+}
+
+.row.research, .row.sitemap {
+    img {
+        width: 80%;
+        margin: 20px;
+    }
+
+    @media (min-width: $break-lg) {
+        img {
+            float: right;
+            width: 40%;
+            margin: 20px 0 20px 20px;
+        }
+    }
+}
+
+.row.content-strategy {
+    img {
+        width: 100%;
+        margin-bottom: -5%;
+    }
+}

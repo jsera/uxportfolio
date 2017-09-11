@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joshua Sera, UX Designer</title>
+        <link  href="/css/allrecipes.css" rel="stylesheet" />
+        <link  href="/css/featherlight.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row hero page uwb">
+                <a id="home" class="anchor"></a>
+                <div class="col m-2 l-5">
+                    <h1>Case Study: Allrecipes Mobile App</h1>
+                </div>
+            </div>
+            <section class="row content">
+                <div class="col m-1 l-4">
+                    <h2>Duration</h2>
+                    <p>2 weeks of a 10 week course</p>
+                </div>
+                <div class="col m-1 l-4">
+                    <h2>My Role</h2>
+                    <p>Visual Design<br />
+                        Interaction Design
+                    </p>
+                </div>
+                <div class="col m-1 l-4">
+                    <h2>Team</h2>
+                    <p>Alyson Dietz<br />
+                        Joshua Sera<br />
+                        Randy Wright
+                    </p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Design Brief</h1>
+                    <p>For our third project at General Assembly, we worked as a team to redesign a mobile app, and add a feature of our choosing. We got the AllRecipes mobile app. The AllRecipes app is popular and has opportunity for improvement both through tweaks of the UI as well as the new feature we designed.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Project Challenge</h1>
+                    <p>The AllRecipes app provides a way for users to discover new recipes, organize recipes they are familiar with, and create shopping lists for meals they want to prepare. In order to improve the app, and decide on a new feature, we need to know what people's cooking processes are, in order to design a way of making their processes easier.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>User Research</h1>
+                    <p>We used a combination of an online survey, and in-person interviews to determine how users found new recipes, stored the recipes they liked, and how they dealt with constraints like dietary restrictions. We found that in-person interviews, with open-ended questions yielded the most interesting, and the most useful results. All three of us interviewed users using the following set of questions:</p>
+                    <ul>
+                        <li>How experienced a cook do you consider yourself? (beginner, average, next top chef)</li>
+                        <li>How do you typically find new recipes?</li>
+                        <li>How do you organize recipes that you like?</li>
+                        <li>Do you currently use particular recipe websites or apps? Which ones?</li>
+                        <li>How many people do you cook for? Kids? Adults?</li>
+                        <li>Are you looking for particular qualities in a recipe site or app? (i.e., reviews, ethnic foods, meal planning, shopping lists, etc.)</li>
+                        <li>Do you have any dietary restrictions? If so, what are some difficulties you experience when trying to find recipes?</li>
+                        <li>What do you find difficult about following recipes in general?</li>
+                    </ul>
+                    <p>We also had our interviewees se the AllRecipes app in order to get an idea of how usable the current app is. The takeaways from this research was:</p>
+                    <ul>
+                        <li>Very, very few people currently use an app for storing or following recipes. The most popular method for recording recipes was actually the good, old-fashioned notebook.</li>
+                        <li>People really disliked having to scroll around while following recipes, specifically, scrolling back and forth between the directions and the list of ingredients was annoying.</li>
+                        <li>People wanted simplicity in the recipes they looked for.</li>
+                    </ul>
+                    <p>Additionally, these were the issues we found in the current mobile app:</p>
+                    <ul>
+                        <li>The main page of the app was an uncategorized list of recipes. It was a firehose of information, which put people off.</li>
+                        <li>People generally disliked the shopping list feature, finding it unintuitive, and difficult to edit.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="row content">
+                    <div class="col m-3 l-12">
+                        <h1>Wireframing</h1>
+                    </div>
+                    <div class="col m-3 l-12">
+                        <p>User research gave us an idea of the work we wanted to prioritize. We decided to add a filtering system to the main recipe feed screen, clean up the shopping list feature, and add a voice activated hands-free mode, so people wouldn't have to touch their phones with flour or grease-covered fingers.</p>
+                        <p>Since we ony had two weeks, and designing for both iOS and Android would add significantly to our workload, I decided to focus on Android. This gave me a chance to research Google's <a href="https://material.io/">Material Design guidelines</a> and apply them to the app.</p>
+                    </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Ingredient Tooltips</h1>
+                </div>
+                <div class="col m-1 l-4">
+                    <a href="/img/Detail-directions-apple%20tooltip.png" target="_blank" data-featherlight="image"><img src="/img/allrecipes-apple-tooltip.png" alt="Detail of tooltip" /><br />(see full size)</a>
+                </div>
+                <div class="col m-2 l-8">
+                    <p>Initially, I had tooltips on ingredients that, when tapped, would let the user know how much of that ingredient was needed in that step, but users wound up getting confused by that, so I took that completely out.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Bottom Navigation</h1>
+                </div>
+                <div class="col m-2 l-8">
+                    <p>The AllRecipes app currently uses a hamburger menu for navigation, but it's not an optimal pattern, and in some cases, it can actually <a href="https://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/">drastically cut engagement time.</a> The Material Design guidelines include specs for a <a href="https://material.io/components/android/catalog/bottom-navigation-view/">bottom navigation bar</a>, similar to iOS's <a href="https://developer.apple.com/ios/human-interface-guidelines/ui-bars/tab-bars/">tab bar</a>. This not only makes navigation choices more obvious, but gives you a place to put notifications as well. You can only put so many navigation items in the bottom nav, so, using the user research we'd already done, I determined which items were the most important, and prioritized those, retaining the hamburger menu for lower priority sections of the app.</p>
+                </div>
+                <div class="col m-1 l-4">
+                    <a href="/img/Base-home-screen.png" target="_blank" data-featherlight="image"><img src="/img/allrecipes-homepage-tab-bar.png" alt="Bottom nav detail" /><br />(see full size)</a>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Viewpager</h1>
+                </div>
+                <div class="col m-1 l-4">
+                    <a href="/img/Base-home-screen.png" target="_blank" data-featherlight="image"><img src="/img/viewpager-detail.png" alt="detail of viewpager" /><br />(see full size)</a>
+                </div>
+                <div class="col m-2 l-18">
+                    <p>I also aded a viewpager to the main feed with categories, to contextualize recipes, so users would have a better idea of what they were looking at.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>User Testing</h1>
+                    <p>User test went okay. The app was a bit more navigable, and people found the recipe detail page more useful, but the results of user test still weren't up to what we wanted them to be. The shopping list, though improved, was still confusing, and hands-free mode still wasn't as well received as we'd like.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Bottom Nav Badge</h1>
+                </div>
+                <div class="col m-1 l-4">
+                    <a href="/img/Detail-ingredients-first-item-selected.png" target="_blank" data-featherlight="image"><img src="/img/allrecipes-tab-badge.png" alt="detail of bottom nav" /><br />(see full size)</a>
+                </div>
+                <div class="col m-2 l-8">
+                    <p>As I said earlier, the bottom navigation serves two purposes: navigation, and a place to put notifications. I added a notification badge to the shopping list tab that incremented whenever people added an item to the list, and changed the icon to a standard Material Design "add to cart" icon. With these changes, users immediately understood what the app was doing and were able to use the shopping list feature easily.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Hands-Free Mode</h1>
+                </div>
+                <div class="col m-2 l-8">
+                    <p>During a collaborative design studio exercise, we also came up with the idea of adding videos to each step of the cooking process, so I drastically revamped the hands-free mode. Walter Burke Barbe has proposed that people have <a href="https://en.wikipedia.org/wiki/Learning_styles#Learning_modalities">three distinct learning styles</a>, auditory, visual, and kinesthetic. Having printed instructions, using Androids built-in voice to speech capabilities to read instructions aloud, and the added video demonstrations can cover a diversity of learning styles.</p>
+                </div>
+                <div class="col m-1 l-4">
+                    <a href="/img/Detail-Directions-Read-to-me.png" data-featherlight="image"><img src="/img/allrecipes-read-to-me.png" alt="detail of video" /><br />(see full size)</a>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>High Fidelity wireframes</h1>
+                    <p>Finally, it was time to produce high-fidelity comps. I used the existing app's colors and fonts to create accurate representations of what a redesigned app would look like. If we had more time, I would have been able to add redlines and annotations to indicate hex values for colors, margins and padding, fonts, and font sizes so developers could turn my designs into a working app.</p>
+                    <p>I also added an instructional modal on the first time you visit the hands-free page of a recipe detail. After the project was complete, I revisited the hands-free mode and did some user testing of my own, and found that users were easily able to understand how to use voice commands to go forward and backwards through instructions.</p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col s-third m-1 l-3"><a href="/img/hifi-Home-Screen.png" target="_blank" data-featherlight="image"><img src="/img/hifi-Home-Screen.png" /><br />(see full size)</a></div>
+                <div class="col s-third m-1 l-3"><a href="/img/hifi-Details-ingredients.png" target="_blank" data-featherlight="image"><img src="/img/hifi-Details-ingredients.png" /><br />(see full size)</a></div>
+                <div class="col s-third m-1 l-3"><a href="/img/hifi-Voice-Control-Instructions2.png" target="_blank" data-featherlight="image"><img src="/img/hifi-Voice-Control-Instructions2.png" /><br />(see full size)</a></div>
+                <div class="col s-third m-1 l-3"><a href="/img/hifi-Voice-Control-Main.png" target="_blank" data-featherlight="image"><img src="/img/hifi-Voice-Control-Main.png" /><br />(see full size)</a></div>
+            </section />
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Summary</h1>
+                    <p>The night before the presentation, I did some googling, and found out that Alexa already has an <a href="https://www.amazon.com/Amazon-Allrecipes/dp/B01N3MS7AV">Allrecipes skill</a> that talks you through a recipe, but that it's rated 2.5 stars, which is actually really bad. One of the comments that I got when user testing our hands-free mode was that being able to read the direcions on-screen was really helpful. I'm guessing that since Alexa has no visual feedback, users whose learning style doesn't favor spoken directions aren't accounted for, which leaves many users in the dust. By helping the user to solve their problems in the way they want to, you can increase the number of people using your app, and increase your brand's goodwill.</p>
+                    <a href="https://docs.google.com/presentation/d/1mq12deimmleqh-Bm0taJ8uPGKTdRWMPQJBttay2-k4k/edit?usp=sharing">Final presentation (Google Slides)</a>
+                </div>
+            </section>
+            <section class="row contact content">
+                <a id="contact"></a>
+                <div class="col m-3 l-12">
+                    <ul>
+                        <li>&copy;2017 Joshua Sera, Seattle, WA</li>
+                        <li><a href="mailto:me@joshsera.com">me@joshsera.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/joshsera/">linkedin.com/in/joshsera</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <section class="row">
+            <div class="col m-3 l-6 nav">
+                <ul>
+                    <li><a href="/#home" data-smooth-scroll data-animation-easing="swing" data-offset="-50">Home</a></li>
+                    <li><a href="/#about" data-smooth-scroll data-animation-easing="swing" data-offset="-50">About</a></li>
+                    <li><a href="/#projects" data-smooth-scroll data-animation-easing="swing" data-offset="-50">Projects</a></li>
+                    <li><a href="mailto:me@joshsera.com">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/js/featherlight.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+@import "case-study";
+
+.row.hero {
+    .col {
+        h1 {
+            padding-bottom: 18px;
+        }
+    }
+
+    &.everydaymusic::after {
+        background-image: url(../img/em-header.jpg);
+        background-position: top 0 left 0;
+    }
+
+    @media (min-width: $break-med) {
+        &.everydaymusic::after {
+            background-position: top 0 left 0;
+            background-size: 170%;
+        }
+    }
+
+    @media (min-width: $break-lg) {
+        &.everydaymusic::after {
+            background-position: top 40% left 0;
+            background-size: 100%;
+        }
+    }
+}
+
+.row {
+    text-align: left;
+
+    .col {
+        &.s-third {
+            padding-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
