@@ -15,6 +15,77 @@
                     <h1>Prototypes and Mobile Apps</h1>
                 </div>
             </div>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Seattle Aquarium Kiosk</h1>
+                    <a class="thumb" href="/aquarium.html" target="_blank">
+                        <img src="/img/aquarium.png" />
+                        <p>
+                            (Flash, 94kb)
+                        </p>
+                    </a>
+                    <p>
+                        This was a prototype for <a href="http://www.bwco.info/">Belle and Wissel's</a> kiosk for the 
+                        <a href="http://www.seattleaquarium.org/exhibit/NASA">Seattle Aquarium</a>. This was completed over the course of a few weeks in order to test usability and motion design for an installation in the aquarium. 
+                    </p>
+                    <p>
+                        It was written in Fash 4, and I used Papervision 3D for 3D rendering, and wrote my own system for animated 3D transitions. In order to speed prototyping, I used a simple XML file to configure cards and titles.
+                    </p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>TripAdvisor Marketing Site</h1>
+                    <a class="thumb" href="/swf/globeObj.html" target="_blank">
+                        <img src="/img/tripadvisor.jpg" />
+                        <p>
+                            (Flash, 172kb)
+                        </p>
+                    </a>
+                    <p>
+                        This was part of a marketing site for <a href="https://www.tripadvisor.com/">TripAdvisor</a>. It was meant to be displayed in the upper left hand corner of a page, behind HTML content.
+                    </p>
+                    <p>
+                        In order to achieve the globe effect before Flash had true 3D rendering, I used a <a href="https://en.wikipedia.org/wiki/Displacement_mapping">displacement map</a> in order to deform a bitmap of a world map. Rotating the globe just meant moving the bitmap behind the displacement map in order to get the illusion of a rotating globe. The pins were scaled and translated using some simple linear algebra. Each pin used the actual latitude and longitude of the city it was supposed to represent, since latitude and logitude just represent an angle on a sphere.
+                    </p>
+                    <p>
+                        The clickable words on the globe were scaled and translated in the same way as the pins, completing the effect.
+                    </p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>MSNBC Android App</h1>
+                    <a class="thumb" href="https://www.youtube.com/watch?v=lvY6kNDCk9k" target="_blank">
+                        <img src="/img/msnbc.jpg" />
+                        <p>(YouTube, 1:08)</p>
+                    </a>
+                    <p>
+                        I wrote the MSNBC's Android app while working at <a href="https://www.zumobi.com/">Zumobi</a>. They started out as an iOS-only shop, and I was originally brought on as an iOS dev, with the intention to move into Android development later. Zumobi wound up getting an Android contract as soon as I was hired, which meant I was given the responsibility of writing their Android libraries and apps, and eventually mentoring junior Android developers.
+                    </p>
+                    <p>
+                        One of the most fun things about this project was the radial topic menu. Buttons are generally square, but the buttons in a radial menu need to be pie-shaped. Additionally, a button won't be selected until a touch up event, meaning you could put your finger on one button and slide it around to another one. The highlight indicator would follow your touch, and select the button you'd last touched when you lifted your finger.
+                    </p>
+                    <p>
+                        In order to make sure the hit areas for each button was right, I placed a single normal button over the entire radial menu. On touch down, I'd draw a vector from the center of the button to the touch, then find the angle of that vector. Finally, I'd divide that angle by the number of buttons in the menu, and use that as an array index to find which button needed to be selected.
+                    </p>
+                </div>
+            </section>
+            <section class="row content">
+                <div class="col m-3 l-12">
+                    <h1>Walt Disney World site</h1>
+                    <a class="thumb" href="https://disneyworld.disney.go.com/" target="_blank">
+                        <img src="/img/wdw.jpg" />
+                        <p>(External site)</p>
+                    </a>
+                    <p>
+                        At Walt Disney Parks and Resorts Online, I worked with the UI Platform Team with <a href="https://www.linkedin.com/in/csaintamant/">Chris Saint-Amant</a> to create proofs of concept for responsive versions of UI components on the Walt Disney World site. The WDW site's main navigation bar has an enormous number of options, and one of my tasks was to make that huge menu usable on mobile. I wound up using a hamburger menu, and a series of accordion menus to progressively disclose navigation options, a pattern which is still in use on the site today.
+                    </p>
+                    <p>
+                        Additionally, I worked on the My Disney Experience iOS app, eventually becoming a lead, and organizing a team of developers in order to work on several releases simultaneously while keeping people from stepping on each others' toes.
+                    </p>
+                </div>
+            </section>
         </div>
         <section class="row">
             <div class="col m-3 l-6 nav">

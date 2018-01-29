@@ -27,3 +27,23 @@
         }
     }
 }
+
+.row.content {
+    .thumb {
+        float: none;
+        width: 80%;
+        margin: 20px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: $break-lg) {
+        .thumb {
+            float: left;
+            width: 40%;
+            margin: 20px 20px 20px 0;
+        }
+    }
+}

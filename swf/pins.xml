@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<!--
+
+All the images have been renamed with just a number, and the headshot has '_head' in it.
+ex/sample (image and headshot thumbnail):
+1.jpg
+1_head.jpg
+
+-->
+	<pins path="img/trips/">
+		<pin lat="32.78" lon="-96.8" pic="1.jpg">
+			<name value="Sara" />
+			<pic url="1_face.jpg" />
+			<profession value="Tourism" />
+			<income value="$50,000-$75,000" />
+			<countries value="54" />
+			<story value="Longhorns and cowboys, exactly what we wanted to find.  TripAdvisor users showed us where all the fun places were; and found us a great hotel too." />
+		</pin>
+		<pin lat="47.61" lon="-122.33" pic="2.jpg">
+			<name value="Johnathan" />
+			<pic url="2_face.jpg" />
+			<profession value="Internet" />
+			<income value="$75,000-$100,000" />
+			<countries value="21" />
+			<story value="Our hotel in Seattle was right next to the Pike Place market and some of the best restaurants I've ever tried." />
+		</pin>
+		<!--
+		<pin lat="49.25" lon="-123.1" pic="3.jpg">
+			<name value="Amanda" />
+			<pic url="3_face.jpg" />
+			<profession value="lawyer" />
+			<income value="$75,000-$100,000" />
+			<countries value="5" />
+			<story value="We explored all of British Columbia with the help of everyone at the car rental agency. They gave us directions to some of the lacal hidden gems." />
+		</pin>
+		-->
+		<pin lat="19.41" lon="-99.13" pic="4.jpg">
+			<name value="Keri" />
+			<pic url="4_face.jpg" />
+			<profession value="Chef" />
+			<income value="$35,000-$50,000" />
+			<countries value="7" />
+			<story value="We never would have found this great little hotel and restaurant without TripAdvisor!!!" />
+		</pin>
+		<pin lat="42.36" lon="-71.06" pic="5.jpg">
+			<name value="Maylee" />
+			<pic url="5_face.jpg" />
+			<profession value="Consultant" />
+			<income value="$75,000-$100,000" />
+			<countries value="18" />
+			<story value="My first time in the USA, the flight was perfect, everything at the airport went so smoothly, the people have been so nice." />
+		</pin>
+		<!--
+		<pin lat="33.53" lon="-7.58" pic="6.jpg">
+			<name value="Brian" />
+			<pic url="6_face.jpg" />
+			<profession value="Med Student" />
+			<income value="$25,000-$35,000" />
+			<countries value="10" />
+			<story value="Finals are over, an over night flight and now I'm in a whole new world.  The information about Morocco available on the flight made me much less nervous." />
+		</pin>
+		-->
+		<pin lat="41.38" lon="2.17" pic="7.jpg">
+			<name value="Doug" />
+			<pic url="7_face.jpg" />
+			<profession value="Office Admin" />
+			<income value="$25,000-$35,000" />
+			<countries value="12" />
+			<story value="I think my wife bought something from every store in Barcelona.  Once she started reseraching with TripAdvisor, her shopping list got longer and longer." />
+		</pin>
+		<pin lat="48.87" lon="2.33" pic="8.jpg">
+			<name value="Anna" />
+			<pic url="8_face.jpg" />
+			<profession value="Management" />
+			<income value="$75,000-$100,000" />
+			<countries value="5" />
+			<story value="Ahhhh. Paris!!! Using TripAdvisor we were able to avoid the tourist traps and found the best places to stay." />
+		</pin>
+		<pin lat="41.01" lon="28.98" pic="9.jpg">
+			<name value="Olga" />
+			<pic url="9_face.jpg" />
+			<profession value="Writer" />
+			<income value="$50,000-$75,000" />
+			<countries value="32" />
+			<story value="I never would have known about the boat tours if it wasn't for TripAdvisor.  This was the highlight of our trip." />
+		</pin>
+		<pin lat="15.65" lon="32.48" pic="10.jpg">
+			<name value="Shirley" />
+			<pic url="10_face.jpg" />
+			<profession value="Teacher" />
+			<income value="$50,000-$75,000" />
+			<countries value="5" />
+			<story value="TripAdvisor made it possible for us to plan our trip to Sudan, and all the suggestions for products to bring with us, have made out trip so much more enjoyable." />
+		</pin>
+		<pin lat="34.03" lon="-6.85" pic="11.jpg">
+			<name value="Michelle" />
+			<pic url="11_face.jpg" />
+			<profession value="Carpenter" />
+			<income value="$75,000-$100,000" />
+			<countries value="27" />
+			<story value="We planned our Morocco trip around the information, and advice we found on TripAdvisor. We thought we we going to Hawaii, but after all we found on TripAdvisor, we ended up in Morocco." />
+		</pin>
+		<pin lat="64.13" lon="-21.93" pic="12.jpg">
+			<name value="Lousia" />
+			<pic url="12_face.jpg" />
+			<profession value="Student" />
+			<income value="$25,000-$35,000" />
+			<countries value="9" />
+			<story value="The Hotel at the Blue Lagoon is fantastic!!!!! I can't even begin to describe how fantastic this vacation was." />
+		</pin>
+		<pin lat="39.87" lon="32.87" pic="13.jpg">
+			<name value="Margaret" />
+			<pic url="13_face.jpg" />
+			<profession value="Professor" />
+			<income value="$50,000-$75,000" />
+			<countries value="3" />
+			<story value="Our honeymoon was absolutely perfect, using TripAdvisor to plan, the airline gave us special treatment, and the hotels upgraded our room!!" />
+		</pin>
+		<pin lat="51.13" lon="11.57" pic="14.jpg">
+			<name value="Lauren" />
+			<pic url="14_face.jpg" />
+			<profession value="Musician" />
+			<income value="$35,000-$50,000" />
+			<countries value="11" />
+			<story value="From the moment we landed in Germany, even at the airport people were celebrating Octoberfest." />
+		</pin>
+		<pin lat="30.05" lon="31.22" pic="18.jpg">
+			<name value="Wade" />
+			<pic url="18_face.jpg" />
+			<profession value="Electrician" />
+			<income value="$75,000-$100,000" />
+			<countries value="31" />
+			<story value="TripAdvisor has allowed me to find all my next adventures and chronicle all my travels for old and new friends alike." />
+		</pin>
+		<pin lat="23.03" lon="72.58" pic="21.jpg">
+			<name value="Robin" />
+			<pic url="21_face.jpg" />
+			<profession value="Designer" />
+			<income value="$75,000-$100,000" />
+			<countries value="5" />
+			<story value="India Was Spectacular, the hotels were all so luxurious, and inviting. I never wanted to go home. I added this picture to TripAdvisor to share my experience." />
+		</pin>
+		<pin lat="30.66" lon="104.06" pic="22.jpg">
+			<name value="Jennifer" />
+			<pic url="22_face.jpg" />
+			<profession value="Computer Programer" />
+			<income value="$75,000-$100,000" />
+			<countries value="8" />
+			<story value="I was so scared to go so far, but all the advice I found on TripAdvisor made me feel more comfortable. The airline attendants on my flight were so generous, they made sure I had everything I could want." />
+		</pin>
+		<pin lat="29.65" lon="91.12" pic="23.jpg">
+			<name value="Lok" />
+			<pic url="23_face.jpg" />
+			<profession value="Trainer" />
+			<income value="$35,000-$50,000" />
+			<countries value="12" />
+			<story value="I left a camera bag on the plane, and the staff tracked me down in the airport to make sure I got it! WOW!" />
+		</pin>
+		<pin lat="28.7" lon="77.2" pic="25.jpg">
+			<name value="Richard" />
+			<pic url="25_face.jpg" />
+			<profession value="CEO" />
+			<income value="$100,000+" />
+			<countries value="3" />
+			<story value="I use TripAdvisor to check out hotels before I book, but not even the raves could have prepared me for how spectacular the hotel was. I wrote my own hotel review on TripAdvisor to share that feeling." />
+		</pin>
+		<pin lat="34.50" lon="112.92" pic="26.jpg">
+			<name value="Maureen" />
+			<pic url="26_face.jpg" />
+			<profession value="Developer" />
+			<income value="$100,000+" />
+			<countries value="5" />
+			<story value="It wasn't planned but the employees at our hotel directed us to these monks practicing; one of many experiences in China." />
+		</pin>
+		<!--
+		<pin lat="7.73" lon="100.5" pic="27.jpg">
+			<name value="Chuck" />
+			<pic url="27_face.jpg" />
+			<profession value="Photographer" />
+			<income value="$75,000-$100,000" />
+			<countries value="29" />
+			<story value="We forgot some of our scuba gear but TripAdvisor had a advertisement for a local scuba shop that we were able to buy everything we needed to enjoy our trip." />
+		</pin>
+		<pin lat="7.35" lon="134.46" pic="28.jpg">
+			<name value="Serena" />
+			<pic url="28_face.jpg" />
+			<profession value="Business Person" />
+			<income value="$75,000-$100,000" />
+			<countries value="5" />
+			<story value="The flight, the hotel, the resort and the tours were fantastic. I can't believe I haven't been using TripAdvisor to plan all my vacations." />
+		</pin>
+		-->
+		<pin lat="20.04" lon="121.50" pic="29.jpg">
+			<name value="Scott" />
+			<pic url="29_face.jpg" />
+			<profession value="Real Estate" />
+			<income value="$100,000+" />
+			<countries value="3" />
+			<story value="The subway and transportation system around and to Taiwan made it so easy for Grace and I to visit her family." />
+		</pin>
+		<pin lat="35.68" lon="139.77" pic="30.jpg">
+			<name value="Ryan" />
+			<pic url="30_face.jpg" />
+			<profession value="Baker" />
+			<income value="$50,000-$75,000" />
+			<countries value="8" />
+			<story value="My flight to Japan was a great intoduction into the Japanese culture; what a nice way to ease into a new culture." />
+		</pin>
+		<pin lat="55.75" lon="37.63" pic="31.jpg">
+			<name value="Joeseph" />
+			<pic url="31_face.jpg" />
+			<profession value="Writer" />
+			<income value="$75,000-$100,000" />
+			<countries value="19" />
+			<story value="If only I had the right camera equipment to capture the sights and sounds of traditional Russia." />
+		</pin>
+		<pin lat="17.31" lon="-157.83" pic="32.jpg">
+			<name value="Michael" />
+			<pic url="32_face.jpg" />
+			<profession value="Dentist" />
+			<income value="$75,000-$100,000" />
+			<countries value="15" />
+			<story value="One special perk of our hotel, if you go during the right season, you'll find sea turtles laying their eggs on the beach!" />
+		</pin>
+		<pin lat="61.19" lon="-149.76" pic="34.jpg">
+			<name value="Mary Anne" />
+			<pic url="34_face.jpg" />
+			<profession value="Politics" />
+			<income value="$50,000-$75,000" />
+			<countries value="2" />
+			<story value="We were able to reach all our constituency! Even when we were snowed in the airports provided services for us to stay on the job" />
+		</pin>
+		<pin lat="39.15" lon="-123.21" pic="35.jpg">
+			<name value="Julia" />
+			<pic url="35_face.jpg" />
+			<profession value="Organic Farmer" />
+			<income value="$35,000-$50,000" />
+			<countries value="6" />
+			<story value="We had always dreamed of hiking the pacific coast, with the flights, hotel available through TripAdvisor we were able to plan out entire trip from home." />
+		</pin>
+		<pin lat="23.22" lon="-106.42" pic="40.jpg">
+			<name value="Cody" />
+			<pic url="40_face.jpg" />
+			<profession value="Advertising" />
+			<income value="$75,000-$100,000" />
+			<countries value="31" />
+			<story value="Oh my gosh, we couldn't believe this was the view from the hotel!" />
+		</pin>
+
+<!--
+
+TRIPADVISOR HEADER STORIES									
+Number	Globe Area	Location	Scene Photo 	Head Photo	User Name	Profession	Income Bracket	Countries Traveled	Story
+1	Plan 1	Texas	x	x	Sara	Tourism	50-75	54	Longhorns and cowboys, exactly what we wanted to find.  TripAdvisor users showed us where all the fun places were; and found us a great hotel too.
+2		Seattle USA	x	x	Johnathan	Internet	75-100	21	Our hotel in Seattle was right next to the Pike Place market and some of the best restaurants I've ever tried.
+3		Vancouver BC	x	x	Amanda	Lawyer	75-100	5	We explored all of British Columbia with the help of everyone at the car rental agency.  They gave us directions to some of the lacal hidden gems.
+4		Mexico	x	x	Keri	Chef	35-50	7	We never would have found this great little hotel and restaurant without TripAdvisor!!!
+5	Research 1	Boston USA	x	x	Maylee	Consultant	75-100	18	My first time in the USA, the flight was perfect, everything at the airport went so smoothly, the people have been so nice.
+6		Morocco	x	x	Brian	Med Student	25-35	10	Finals are over, an over night flight and now I'm in a whole new world.  The information about Morroco available on the flight made me much less nervous.
+7		Barcelona Spain	x	x	Doug	Office Admin	25-35	12	I think my wife bought something from every store in Barcelona.  Once she started reseraching with TripAdvisor, her shopping list got longer and longer.
+8		France	x	x	Anna	Management	75-100	5	Ahhhh. Paris!!!  Using TripAdvisor we were able to avoid the tourist traps and found the best places to stay.
+9	Dream 1	Turkey W Europe	x	x	Olga	Writer	50-75	32	I never would have known about the boat tours if it wasn't for TripAdvisor.  This was the highlight of our trip.
+10		Sudan N Africa	x	x	Shirley	Teacher	50-75	5	TripAdvisor made it possible for us to plan our trip to Sudan, and all the suggestions for products to bring with us, have made out trip so much more enjoyable.
+11		Morocco N Africa	x	x	Michelle	Carpenter	75-100	27	We planned our Morocco trip around the information, and advice we found on TripAdvisor.  We thought we we going to Hawaii, but after all we found on TripAdvisor, we ended up in Morocco.
+12		Iceland	x	x	Lousia	Student	25-35	9	The Hotel at the Blue Lagon is fantastic!!!!!  I can't even begin to describe how fantastic this vacation was.
+13	Share 1	Turkey W Europe	x	x	Margaret	Professor	50-75	3	Our honeymoon was absolutely perfect, using TripAdvisor to plan, the airline gave us special treatment, and the hotels upgraded our room!!
+14		Munich Germany	x	x	Lauren	Musician	35-50	11	From the moment we landed in Germany, even at the airport people were celebrating Octoberfest.
+15		Sudan N Africa	x	x	Theresa	Sales	75-100	42	Our hotel set up fantastic tours that I never could have imagined; the places we saw. 
+16		Morocco N Africa	x	x	Simon	Researcher	50-75	33	The markets were so amazing, and to top it off, the restaurant at the hotel served market fresh specials each day.
+17	Travel 1	Turkey  	x	x	Brianna	Retail	50-75	25	On my flight over, I met people who had traveled through Turkey several times.  I landed with a huge set of places to see, eat and visit, in addition to my list.
+18		Egypt	x	x	Wade	Electrician	75-100	31	TripAdvisor has allowed me to find all my next adventrues and chronicle all my travels for old and new friends alike.
+19		Sudan  	x	x	Matt	Designer	50-75	26	I made so many new friends at every turn, from the flight to the hotel to the tours.  I can't wait to go back.
+20		Italy 	x	x	Andrew	Marketing Manager	75-100	9	My friends and I wanted to bike across Italy and the airline made it so easy to bring our bikes; we're going to make this an annual trip!
+21	Plan 2	India 	x	x	Robin	Designer	75-100	5	India was spectacular, the hotels were all so luxurious, and inviting.  I never wanted to go home.
+22		China	x	x	Jennifer	Computer Programer	75-100	8	I was so scared to go so far, but all the advice I found on TripAdvisor made me feel more comfortable.  And to start my trip off, the airline attendants on my flight were so generous, they made sure I had everything I could want.
+23		Tibet	x	x	Lok	Trainer	35-50	12	I left a camera bag on the plane, and the staff tracked me down in the airport to make sure I got it!  WOW!
+24		Egypt	x	x	Wade	Electrician	75-100	31	Since I work crazy hours; I want my vacation planning to be as easy as possible but also unique and relaxing, I've gotten all that and more with TripAdvisor
+25	Research 2	India	x	x	Richard	CEO	100+	3	I use TripAdvisor to check out hotels before I book, but not even the raves could have prepared me for how spectacular this hotel was.
+26		China	x	x	Maureen	Developer	100+	5	It wasn't planned but the employees at our hotel directed us to these monks practicing; one of many experiences in China.
+27		Thailand S Pacific	x	x	Chuck	Photographer	75-100	29	We forgot some of our scuba gear but TripAdvisor had a advertisement for a local scuba shop that we were able to buy everything we needed to enjoy our trip.
+28		Palau S Pacific	x	x	Serena	Business Person	75-100	5	The flight, the hotel, the resort and the tours were fantastic. I can't believe I haven't been using TripAdvisor to plan all my vacations.
+29	Dream 2	Taiwan	x	x	Scott	Real Estate	100+	3	The subway and transportation system around and to Taiwan made it so easy for Grace and I to visit her family
+30		Japan	x	x	Ryan	Baker	50-75	8	My flight to Japan was a great intoduction into the Japanese culture; what a nice way to ease into a new culture.
+31		Russian E Penn	x	x	Joeseph	Writer	75-100	19	If only I had the right camera equipment to capture the sights and sounds of traditional Russia
+32		Hawaii	x	x	Michael	Dentist	5-100	15	One special perk of our hotel, if you go during the right season, you'll find sea turtles laying their eggs on the beach!
+33	Share 2	Hawaii	x	x	Willa	Real Estate Developer	75-100	6	The hotels in Hawaii are spectacular, just outside your room and we had our own personal light show.
+34		Alaska	x	x	Mary Anne	Politics	50-75	2	We were able to reach all our constituency!  Even when we were snowed in the airports provided services for us to stay on the job
+35		w USA	x	x	Julia	Orgnaic Farmer	35-50	6	We had always dreamed of hiking the pacific coast, with the flights, hotel available through TripAdvisor we were able to plan out entire trip from home.
+36		Japan	x	x	Sergi	Restaurants	50-75	9	A traditional Japanese guest house, booked through TripAdvisor no one spoke english but still they provided the top notch service.
+37	Travel 2	Canada	x	x	Cassandra	Doctor	100+	5	The flight to Alaksa was so scenic, and the trip outfitter had everything taken care of, from the ski transporation to the caribou!  
+38		w USA	x	x	Tim	Retail	50-75	22	The best restaurant!  Who would have thought, but TripAdvisor reviews lead the way.
+39		Alaska	x	x	Myrna	Horticulture	50-75	28	Our Alaskan cruise was so much better than we could have even imagined. We saw whales, seals and bears every day.
+40		Mexico	x	x	Cody	Advertising	75-100	31	Oh my gosh, we couldn't believe this was the view from the hotel!
+
+-->
+
+	</pins>
+	<users path="img/trips/">
+		
+	</users>
+</data>
+
