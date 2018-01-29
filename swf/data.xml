@@ -19,15 +19,15 @@
 				<hotspot x="365" y="194" text="seal0" />
 			</card>
 			<card type="picture">
-				<picture url="pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
+				<picture url="/swf/pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
 				</picture>
-				<picture url="pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
+				<picture url="/swf/pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
 				</picture>
-				<picture url="pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
+				<picture url="/swf/pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
 				</picture>
-				<picture url="pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
+				<picture url="/swf/pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
 				</picture>
-				<picture url="pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
+				<picture url="/swf/pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
 				</picture>
 			</card>
 		</chapter>
@@ -35,15 +35,15 @@
 			<card type="movie">
 			</card>
 			<card type="picture">
-				<picture url="pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
+				<picture url="/swf/pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
 				</picture>
-				<picture url="pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
+				<picture url="/swf/pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
 				</picture>
-				<picture url="pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
+				<picture url="/swf/pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
 				</picture>
-				<picture url="pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
+				<picture url="/swf/pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
 				</picture>
-				<picture url="pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
+				<picture url="/swf/pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
 				</picture>
 			</card>
 			<card type="infoviz">
@@ -70,15 +70,15 @@
 				<hotspot x="365" y="194" text="seal0" />
 			</card>
 			<card type="picture">
-				<picture url="pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
+				<picture url="/swf/pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
 				</picture>
-				<picture url="pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
+				<picture url="/swf/pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
 				</picture>
-				<picture url="pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
+				<picture url="/swf/pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
 				</picture>
-				<picture url="pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
+				<picture url="/swf/pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
 				</picture>
-				<picture url="pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
+				<picture url="/swf/pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
 				</picture>
 			</card>
 			<card type="movie">
