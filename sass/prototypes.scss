@@ -1,0 +1,29 @@
+@import "case-study";
+
+.row.hero {
+
+    .col {
+        h1 {
+            padding-bottom: 18px;
+        }
+    }
+
+    &.coding::after {
+        background-image: url(../img/coding_bg.jpg);
+        background-position: top 0 left -300px;
+    }
+
+    @media (min-width: $break-med) {
+        height: 260px;
+
+        &.coding::after {
+            background-position: top 0 left 0;
+        }
+    }
+
+    @media (min-width: $break-lg) {
+        &.coding::after {
+            background-position: top 40% left 0;
+        }
+    }
+}

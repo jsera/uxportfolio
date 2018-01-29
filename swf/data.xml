@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<chapters>
+		<chapter>
+			<card type="infoviz">
+				<hotspot x="116" y="58" text="seal0" />
+				<hotspot x="126" y="107" text="seal1" />
+				<hotspot x="51" y="179" text="seal1" />
+				<hotspot x="349" y="121" text="seal0" />
+				<hotspot x="365" y="194" text="seal0" />
+			</card>
+			<card type="movie">
+			</card>
+			<card type="infoviz">
+				<hotspot x="116" y="58" text="seal0" />
+				<hotspot x="126" y="107" text="seal1" />
+				<hotspot x="51" y="179" text="seal1" />
+				<hotspot x="349" y="121" text="seal0" />
+				<hotspot x="365" y="194" text="seal0" />
+			</card>
+			<card type="picture">
+				<picture url="pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
+				</picture>
+				<picture url="pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
+				</picture>
+				<picture url="pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
+				</picture>
+				<picture url="pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
+				</picture>
+				<picture url="pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
+				</picture>
+			</card>
+		</chapter>
+		<chapter>
+			<card type="movie">
+			</card>
+			<card type="picture">
+				<picture url="pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
+				</picture>
+				<picture url="pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
+				</picture>
+				<picture url="pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
+				</picture>
+				<picture url="pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
+				</picture>
+				<picture url="pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
+				</picture>
+			</card>
+			<card type="infoviz">
+				<hotspot x="116" y="58" text="seal0" />
+				<hotspot x="126" y="107" text="seal1" />
+				<hotspot x="51" y="179" text="seal1" />
+				<hotspot x="349" y="121" text="seal0" />
+				<hotspot x="365" y="194" text="seal0" />
+			</card>
+			<card type="infoviz">
+				<hotspot x="116" y="58" text="seal0" />
+				<hotspot x="126" y="107" text="seal1" />
+				<hotspot x="51" y="179" text="seal1" />
+				<hotspot x="349" y="121" text="seal0" />
+				<hotspot x="365" y="194" text="seal0" />
+			</card>
+		</chapter>
+		<chapter>
+			<card type="infoviz">
+				<hotspot x="116" y="58" text="seal0" />
+				<hotspot x="126" y="107" text="seal1" />
+				<hotspot x="51" y="179" text="seal1" />
+				<hotspot x="349" y="121" text="seal0" />
+				<hotspot x="365" y="194" text="seal0" />
+			</card>
+			<card type="picture">
+				<picture url="pictures/pic0.jpg" x="211" y="29" rotation="15" scale="0.25">
+				</picture>
+				<picture url="pictures/pic1.jpg" x="16" y="40" rotation="-10" scale="0.25">
+				</picture>
+				<picture url="pictures/pic2.jpg" x="23" y="162" rotation="-15" scale="0.25">
+				</picture>
+				<picture url="pictures/pic3.jpg" x="334" y="23" rotation="8" scale="0.25">
+				</picture>
+				<picture url="pictures/pic4.jpg" x="151" y="123" rotation="-1.5" scale="0.25">
+				</picture>
+			</card>
+			<card type="movie">
+			</card>
+		</chapter>
+	</chapters>
+	<hotspottext>
+		<text id="seal0">
+			Lorem ipsum dolor sit amet
+		</text>
+		<text id="seal1">
+			This is another line of text.
+		</text>
+	</hotspottext>
+</data>
